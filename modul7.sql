@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 11 Jun 2023 pada 16.03
+-- Waktu pembuatan: 11 Jun 2023 pada 17.40
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.2.4
 
@@ -61,8 +61,7 @@ CREATE TABLE `crud` (
 --
 
 INSERT INTO `crud` (`id`, `nama`, `nim`, `alamat`) VALUES
-(1, 'fajar', '2110817310009', 'Banjarmasin2'),
-(4, 'Fajar', '2110817310009', 'BUMI');
+(1, 'Muhammad Akbar', '2110817110001', 'Banjarmasin');
 
 -- --------------------------------------------------------
 
@@ -108,8 +107,6 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `email`, `password`) VALUES
-(1, 'user', 'user@gmail.com', '$2y$10$uikYKAFYu5peatxETHuGq.t6wItNJidIoEy0P5pkBQyyMJDqRV39O'),
-(2, 'admin', 'admin@mail.com', '$2y$10$owPcuOliltHxCooZMtYEhOkEnURD39DSJ1/OQcdTKnvaBYJbwT1D2'),
 (3, 'muhbar', 'muhbar@gmail.com', '$2y$10$blHoSnooZMSguOiV/dkLQe3A4zm9yJOvtP2Z..jRPgwiSZ1D.7TPy');
 
 --
